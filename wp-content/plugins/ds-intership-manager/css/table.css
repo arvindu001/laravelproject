@@ -1,0 +1,44 @@
+.j_table{ border-right:solid 1px #D0DFE9; border-left:solid 1px #D0DFE9;  margin:20px auto; color:#4b4949; float:left}
+.j_table tr th{ background:linear-gradient(to top, #EFF8FF, #F7FCFE) repeat scroll 0 0 #F5FAFD !important; font-family:arial; font-size:12px; border-bottom: 1px solid #D0DFE9; border-top:1px solid #FFFFFF; padding:10px 8px 10px 8px;  text-align:left; color:#21759B; font-weight:bold; }
+.j_table tr td{  border-bottom: 1px solid #D0DFE9; border-top:1px solid #FFFFFF; padding:8px;}
+.row1{ background:#fff;}
+.row2{ background:#fff;}
+h1 { color:#174F69;  font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;     font-weight: 400;}
+h2{ margin:0px; padding:10px 0px 0px 0px; color:#174F69; font-size:20px;  font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;  font-weight: 400; }
+.BOX {border:solid 1px #D0DFE9;  background:linear-gradient(to top, #EFF8FF, #F7FCFE) repeat scroll 0 0 #F5FAFD !important; padding:13px;}
+.BOX .htop {background:linear-gradient(to top, #EFF8FF, #F7FCFE) repeat scroll 0 0 #F5FAFD !important; border-bottom:1px solid #D0DFE9;  font-family:arial; font-size:15px; text-align:left; color:#21759B; font-weight:bold; }
+.col1 { background: none repeat scroll 0 0 #EFEFEF;}
+.fllft {text-align:left; float:left;}
+.frrgt { text-align:right; float:right; width:2px; font-weight:bold;margin-right: 15px;}
+span.p-title{
+    color: #174F69;
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+    font-size: 18px;
+}
+.btn {   background: linear-gradient(to top, #5589AA, #619BBB) repeat scroll 0 0 #5589AA; border-bottom-color: #5589AA;
+    border-top-color: #5A8FAD;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #333333;   border-style: solid none;
+    border-width: 1px 0; font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    padding:5px 10px;}
+	.clear{
+    clear: both;
+    height: 20px;
+}
+td a {
+    display: block;
+    padding:5px;
+} 
+.widefat{ border-right:solid 1px #D0DFE9; border-left:solid 1px #D0DFE9;  margin:0px auto; color:#4b4949; float:left}
+.widefat tr th{ background:linear-gradient(to top, #EFF8FF, #F7FCFE) repeat scroll 0 0 #F5FAFD !important; font-family:arial; font-size:12px; border-bottom: 1px solid #D0DFE9; border-top:1px solid #FFFFFF; padding:10px 8px 10px 8px;  text-align:left; color:#21759B; font-weight:bold; }
+.widefat tr td{  border-bottom: 1px solid #D0DFE9; border-top:1px solid #FFFFFF; padding:8px;}
+
+.calender{
+    background: #fff url('../images/calendar.png') no-repeat 98% center;
+}
+.clock{
+    background: #fff url('../images/clock.png') no-repeat 98% center;
+    background-size: 25% 100%;
+}

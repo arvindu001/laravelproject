@@ -1,0 +1,176 @@
+.tf-counter {
+    position: relative;
+}
+
+.tf-counter {
+    background: #f2f7f5;
+    padding: 30px 30px 30px 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.tf-counter .wrap-counter-inner .content {
+    margin-top: -10px;
+}
+
+.tf-counter.default .wrap-counter-inner .icon {
+    width: 140px;
+    height: 160px;
+    background: #9664FF;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.tf-counter .wrap-counter-inner .icon i {
+    font-size: 80px;
+    display: inline-block;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.tf-counter .counter-number-wrapper {
+    font-family: 'Nunito';
+font-weight: 700;
+font-size: 60px;
+line-height: 1em;
+color: var(--theme-secondary-color);
+display: inline-flex;
+margin-bottom: 5px;
+align-items: baseline;
+}
+
+.tf-counter .counter-number-wrapper .counter-number-suffix {
+    color: var(--theme-accent-color);
+}
+
+.tf-counter .counter-title {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: #7d7f82;
+}
+/* style 1 */
+.tf-counter.style1 {
+    padding: 27px 30px 18px 30px;
+}
+
+.tf-counter.style1 .wrap-counter-inner .icon i {
+    font-size: 55px;
+}
+
+.tf-counter.style1 .wrap-counter-inner .icon {
+    margin-right: 15px;
+}
+
+.tf-counter.style1 .wrap-counter-inner .content {
+    margin-top: -7px;
+}
+
+.tf-counter.style1 .counter-number-wrapper {
+    font-family: 'Nunito';
+font-weight: 600;
+font-size: 42px;
+line-height: 1em;
+color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.tf-counter.style1 .counter-title {
+    font-family: 'Nunito';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: -1px;
+}
+/* style 2 */
+.tf-counter.style2 {
+    padding: 27px 30px 18px 30px;
+    background: #fff;
+    box-shadow: unset;
+}
+.tf-counter.style2:hover {
+    box-shadow: 5px 5px var(--theme-accent-color);
+}
+.tf-counter.style2 .counter-icon i {
+    font-size: 55px;
+    color: var(--theme-accent-color);   
+}
+.tf-counter.style2 .counter-number-wrapper {
+    font-family: 'Nunito';
+font-weight: 600;
+font-size: 42px;
+line-height: 53px;
+color: var(--theme-primary-color);
+}
+.tf-counter.style2 .counter-title {
+    font-family: 'Nunito';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: var(--theme-primary-color);
+}
+/* style 3 */
+.tf-counter.style3 {
+    padding: 27px 30px 18px 30px;
+    background: transparent;
+    box-shadow: unset;
+}
+.tf-counter.style3 .wrap-counter {
+    display: flex;
+}
+.tf-counter.style3 .counter-icon i {
+    font-size: 30px;
+    color: #F43FE2;   
+}
+.tf-counter.style3 .counter-number-wrapper {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 110%;
+    color: #00234B;
+    align-items: baseline;
+    margin-bottom: -1px;
+}
+.tf-counter.style3 .counter-number-wrapper .counter-number-suffix {
+    color: #F43FE2;
+    font-size: 20px;
+}
+.tf-counter.style3 .counter-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #00234B;
+}
+.tf-counter.style3 .inner-icon {
+    margin-right: 14px;
+    margin-top: 8px;
+}
+@media (max-width: 991px) {
+    .tf-counter .counter-number-wrapper {
+        font-size: 60px;
+    }
+    .tf-counter .wrap-counter-inner .icon i {
+        font-size: 50px;
+    }
+}

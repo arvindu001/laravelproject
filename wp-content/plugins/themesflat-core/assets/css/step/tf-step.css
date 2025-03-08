@@ -1,0 +1,217 @@
+.tf-step {
+    background: #fff;
+    padding: 40px 80px;
+    padding-bottom: 23px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.tf-step .number-count {
+    width: 75px;
+height: 75px;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+box-shadow: 1px 5px 0 var(--theme-primary-color);
+background: var(--theme-accent-color);
+margin-bottom: 17px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.tf-step .number-count .number {
+    font-family: 'Nunito';
+font-weight: 700;
+font-size: 30px;
+line-height: 38px;
+color: #FFFFFF;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.tf-step h3 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: var(--theme-primary-color);
+}
+
+/* working */
+
+.tf-working-process .group-working {
+    position: relative;
+    display: flex;
+    margin-left: -50px;
+}
+
+.tf-working-process .group-working .line {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.tf-working-process .group-working .box {
+    width: calc(33.3333% - 50px);
+    margin-left: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.tf-working-process .group-working .box.box2 {
+    margin-top: 61px;
+}
+
+.tf-working-process .group-working .box .features {
+    width: 80px;
+height: 80px;
+background: #FFFFFF;
+border: 1px solid #00234B;
+border-radius: 50%;
+overflow: hidden;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 22px;
+}
+
+.tf-working-process .group-working .box .features img {
+    width: 36px;
+height: 36px;
+object-fit: cover;
+}
+
+.tf-working-process .group-working .box .content {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 23px 15px 20px 15px;
+    z-index: 5;
+}
+
+.tf-working-process .group-working .box .content::after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background: #fff;
+    clip-path: polygon(50% 0%, 100% 5%, 100% 99%, 0 100%, 0 5%);
+    z-index: -1;
+}
+
+.tf-working-process .group-working .box .content h4 {
+    font-family: 'Nunito';
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: var(--theme-accent-color);
+margin-bottom: 6px;
+}
+
+.tf-working-process .group-working .box .content h3 {
+    font-family: 'Nunito';
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+margin: 0 5px;
+color: #00234B;
+margin-bottom: 6px;
+
+}
+
+.tf-working-process .group-working .box .content p {
+    font-family: 'Manrope';
+font-weight: 400;
+font-size: 16px;
+line-height: 185%;
+color: #617798;
+}
+
+/* button */
+.tf-button2 {
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding: 18px 35px;
+border-radius: 5px;
+display: inline-flex;
+z-index: 1;
+overflow: hidden;
+position: relative;
+line-height: 1;
+white-space: nowrap;
+background: #297d53;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.tf-button2 i {
+    margin-left: 6px;
+}
+
+.tf-button2:hover {
+    background: #e6d54f;
+    color: #3e483c;
+}
+
+/* .tf-button2::after {
+    content: "";
+    height: 300px;
+    width: 100%;
+    background-color: var(--theme-secondary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0);
+    transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: -1;
+}
+
+.tf-button2:hover::after
+ {
+    transform: translateY(-50%) translateX(-50%) scale(1);
+    transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+} */
+
+@media only screen and (max-width: 767px) {
+
+    .tf-working-process .group-working {
+        flex-wrap: wrap;
+    }
+    .tf-working-process .group-working .box {
+        width: calc(100% - 50px);
+    }
+    .tf-working-process .group-working .box,
+    .tf-working-process .group-working .box.box2 {
+        margin-top: 40px;
+    }
+    .tf-step {
+        padding: 40px;
+    }
+    
+    
+}

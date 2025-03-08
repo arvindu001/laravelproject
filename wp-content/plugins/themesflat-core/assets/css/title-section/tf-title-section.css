@@ -1,0 +1,16 @@
+/*title section
+---------------------------------------------------------------- */
+.tf-title-section .title-section .sub-title {
+    position: relative;
+    margin-bottom: 13px;
+    color: var(--theme-accent-color);
+}
+
+.tf-title-section .title-section .heading {
+    color: var(--theme-primary-color);
+    margin: 0 16%;
+}
+
+.tf-title-section .title-section .heading span {
+    color: var(--theme-secondary-color);
+}
